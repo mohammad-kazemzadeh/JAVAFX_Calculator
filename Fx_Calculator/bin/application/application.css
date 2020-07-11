@@ -1,0 +1,99 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	-fx-background-color: rgb(38, 38, 38);
+	-fx-font:bold 22px 'Sitka Text';
+	
+}
+
+#Leb {
+	-fx-text-fill: white;
+	-fx-font: bold 30px  Monospaced;
+	-fx-min-height: 60px;
+	-fx-min-width: 370px;
+	
+}
+#Tfield {
+	-fx-control-inner-background: black;
+	-fx-background-color :-fx-control-inner-background;
+	-fx-font: normal bold 35px 'Open Sans';
+	-fx-min-height: 100px;
+	-fx-min-width: 380px;
+	-fx-padding:12;
+	
+	
+}
+.BigInt-switch-button {
+	
+	-fx-font-size: 20px;
+	-fx-min-height: 60px;
+	-fx-min-width: 385px;
+	-fx-background-color: #4d4d4d;	
+	-fx-text-fill: white;
+}
+.BigInt-switch-button:selected {
+	-fx-border-color: #dddddd;
+	-fx-background-color: #607D8B;	
+	
+}
+
+.num_buttons {
+      	-fx-font:bold 24px 'Sitka Text';
+      	-fx-background-color:black;
+      	-fx-text-fill: white;
+		-fx-padding: 10 0 0 0 ;
+      	 
+}
+.num_buttons:hover {
+	 -fx-background-color: rgb(204, 204, 204);
+	 -fx-text-fill: black;
+	 
+}
+
+.op_equ {
+	-fx-min-height: 85px;
+	-fx-min-width: 85px;
+	-fx-background-color: rgb(38, 38, 38);	
+	-fx-text-fill: white;
+}
+.op_equ:hover {
+	
+	-fx-background-color: rgb(204, 204, 204);	
+	-fx-text-fill: black ;
+	
+}
+
+.op_button {
+	
+	-fx-background-color: rgb(38, 38, 38);	
+	-fx-min-height: 90px;
+	-fx-min-width: 90px;
+	-fx-text-fill: white;
+	
+}
+.op_button:hover {
+	-fx-background-color: rgb(204, 204, 204);
+	-fx-text-fill: black ;
+	
+	
+}
+
+.op_button_Dif {
+	-fx-min-height: 85px;
+	-fx-min-width: 85px;
+	-fx-background-color: rgb(38, 38, 38);	
+	-fx-text-fill: white;
+	
+}
+.op_button_Dif:hover {
+	-fx-background-color: rgb(204, 204, 204);	
+	-fx-text-fill: black ;	
+	-fx-bar-gap: 10;
+}
+
+
+.FLowPn {
+	-fx-background-color: black;
+		
+}
+
