@@ -8,4 +8,4 @@ Simple Calculator With Simple abilities such as addition, Reduction, Factorial c
 
 
 
-![Sample](/Sample.png)
+![Sample](/Fx_Calculator/Sample.png)
