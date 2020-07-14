@@ -2,18 +2,12 @@ package bigInt;
 
 public class BigInt {
 
-	public static void main(String[] args) {
-		BigInt a = new BigInt("48");
-		BigInt b = new BigInt("48");
-		BigInt res = new BigInt();
-		res.Minus(a, b);
-		System.out.println(res);
-	}
+	
 
-	// properties
+	
 	private String Num;
 
-	// Constructors
+	
 	public BigInt() {
 		Num = "0";
 	}
@@ -72,7 +66,7 @@ public class BigInt {
 	public void Sum(BigInt Given, BigInt Given_2) {
 		int[] First = new int[100000000];
 		int[] Second = new int[100000000];
-		int[] Res = new int[10000000];
+		int[] Res = new int[100000000];
 		int cFirst = Given.StrToRevArr(First);
 		int cSec = Given_2.StrToRevArr(Second);
 		int max = cFirst;
@@ -113,9 +107,9 @@ public class BigInt {
 
 	public void Minus(BigInt Given, BigInt Given_2) {
 		String FinalRes = "";
-		int[] First = new int[1000000];
-		int[] Second = new int[1000000];
-		int[] Res = new int[1000000];
+		int[] First = new int[100000000];
+		int[] Second = new int[100000000];
+		int[] Res = new int[100000000];
 
 		int cC = 0;
 		int cA = Given.StrToRevArr(First);
@@ -219,9 +213,9 @@ public class BigInt {
 
 	public void Multiply(BigInt Given, BigInt Given_2) {
 		String Result = "";
-		int[] First = new int[1000000];
-		int[] Second = new int[1000000];
-		int[] Res = new int[1000000];
+		int[] First = new int[100000000];
+		int[] Second = new int[100000000];
+		int[] Res = new int[100000000];
 
 		int cRes = 0;
 		int cA = Given.StrToRevArr(First);
